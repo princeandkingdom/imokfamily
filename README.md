@@ -1,5 +1,7 @@
-# IMOK Website V4
+# IMOK Family Website — Fixed Build
 
-Connected to Cloudflare Pages. Push to main to deploy.
+This version fixes:
+- CSS and JavaScript asset paths
+- redirect loops caused by `_redirects`
 
-Replace the App Store and Google Play placeholder links before launch. Review legal text with qualified counsel.
+Deploy by replacing the repository contents, then commit and push to `main`.
