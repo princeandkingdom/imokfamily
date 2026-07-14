@@ -1,7 +1,9 @@
-# IMOK Family Website — Fixed Build
+# IMOK Launch Pages v1
 
-This version fixes:
-- CSS and JavaScript asset paths
-- redirect loops caused by `_redirects`
+Launch-support pages for imokfamily.com.
 
-Deploy by replacing the repository contents, then commit and push to `main`.
+Included: homepage, Privacy Policy, Terms of Service, Support and Contact.
+
+Deployment: replace the repository contents, commit to main, and push. Cloudflare Pages deploys automatically.
+
+Before broad commercial launch, have qualified legal counsel review the Privacy Policy and Terms.
