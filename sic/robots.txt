@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://imokfamily.com/sic/sitemap.xml
