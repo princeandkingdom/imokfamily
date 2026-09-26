@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#174f45">
+  <meta name="description" content="Privacy Policy for Guandan by IMOK / 校友掼蛋.">
+  <title>Guandan by IMOK Privacy Policy</title>
+  <style>
+    :root{color-scheme:light;--ink:#18312c;--muted:#5e6f69;--line:#dbe5e1;--paper:#fffefa;--green:#174f45;--gold:#bd8d38}*{box-sizing:border-box}body{margin:0;background:#f4f1e8;color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header,main,footer{max-width:900px;margin:auto}header{padding:42px 24px 24px}header a,footer a{color:var(--green)}.brand{font-weight:800;letter-spacing:.02em;text-decoration:none}.eyebrow{color:var(--gold);font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.08;margin:.25rem 0 .5rem}header p{color:var(--muted);margin:0}.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(22px,5vw,52px);box-shadow:0 16px 44px #173b3010}h2{font-size:1.35rem;margin:2.1rem 0 .45rem}h2:first-child{margin-top:0}h3{font-size:1rem;margin:1.2rem 0 .2rem}p,li{max-width:72ch}ul{padding-left:1.25rem}.note{border-left:4px solid var(--gold);background:#faf4e7;padding:14px 18px;border-radius:0 12px 12px 0}.lang{color:var(--muted);font-size:.92rem;border-top:1px solid var(--line);margin-top:2rem;padding-top:1.2rem}footer{padding:28px 24px 48px;color:var(--muted);font-size:.9rem}@media(max-width:600px){header{padding-top:28px}.card{border-radius:0;border-left:0;border-right:0}}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="/">IMOK</a>
+    <div class="eyebrow">Guandan by IMOK · 校友掼蛋</div>
+    <h1>Privacy Policy</h1>
+    <p>Effective September 26, 2026</p>
+  </header>
+  <main class="card">
+    <h2>1. Scope</h2>
+    <p>This policy describes how Guandan by IMOK (“Guandan”, “we”, or “us”) handles information when you play, use Campus and Friend Room features, use voice features, or make an in-app purchase. Guandan does not sell personal information and does not use app data for cross-app advertising or tracking.</p>
+
+    <h2>2. Account and profile data</h2>
+    <p>Guandan creates a generated anonymous Firebase account identifier when the app first needs online services. You are not required to provide an email address, phone number, legal name, or social sign-in. The identifier is used to authenticate requests and link your online game, profile, and purchase access.</p>
+    <p>You may optionally provide a nickname, choose a built-in avatar, and select schools and a city for your profile. These details can be visible to other players in social and game surfaces. The current app does not upload a photo for a custom avatar. The “Add University” form is currently saved only on your device and is not submitted to our servers.</p>
+
+    <h2>3. Game, room, and social data</h2>
+    <p>To operate online play, we process room and table membership, six-digit room numbers, scheduled-room details and RSVPs, presence and reconnect state, authoritative match state, card actions, outcomes, and game results. Private hands are processed by the authoritative game service and delivered only to the applicable player. Quick-chat messages, reactions, and other conversation messages are stored with the conversation and sender account identifier.</p>
+    <p>Recent Matches is maintained as an on-device index of authoritative completed matches. The authority also retains match and result records needed for game integrity, reconnect, dispute handling, and commerce eligibility.</p>
+
+    <h2>4. Purchases</h2>
+    <p>Purchases are processed by Apple through StoreKit. We receive and retain the product identifier, StoreKit transaction identifier and verification payload, purchase environment and status, purchaser account binding, entitlement or room binding, purchase time, and refund or revocation status. An app-account token derived from the anonymous account may be used to bind a transaction to the correct Guandan account. We do not receive your full payment-card or bank-account details from Apple.</p>
+
+    <h2>5. Friend Room Voice</h2>
+    <p>If you choose Friend Voice and grant microphone permission, microphone audio is transmitted in real time through LiveKit/WebRTC infrastructure to participants in that Friend Room. Guandan’s current implementation does not configure recording or egress and does not store conversational audio. LiveKit receives a short-lived room token and a participant identity derived from your anonymous account so it can connect the correct room participant.</p>
+
+    <h2>6. Hands-Free speech commands</h2>
+    <p>Hands-Free is optional and starts only when enabled by you. Your device’s operating-system speech-recognition service receives microphone audio and returns recognized words to Guandan. For an online match, Guandan sends the recognized command text—not raw microphone audio—to the authoritative service to validate and execute the command. The current authority processes that text immediately and does not persist the transcript in match storage. Platform speech services may process audio under their own terms and privacy policies.</p>
+
+    <h2>7. Campus media and local storage</h2>
+    <p>The app may download approved Campus images and entry videos on demand. Local media caches are integrity checked, size limited, and automatically evicted. App preferences, profile copies, purchase-recovery context, Add University drafts, and the Recent Matches index may remain on your device until cleared by the app’s normal cache behavior, app data is reset, or the app is removed.</p>
+
+    <h2>8. Device, service, and diagnostic information</h2>
+    <p>Firebase Authentication, Firestore, Installations, and Messaging components may process an app installation identifier and limited device/app metadata such as device model, operating-system and app versions, language, time zone, and SDK/network diagnostics. Guandan does not use these identifiers for advertising. The current app does not include Firebase Analytics, Firebase Crashlytics, or Firebase Performance Monitoring.</p>
+    <p>Our hosting and authority infrastructure creates operational request logs containing items such as request time, route, response status, network address, and service diagnostics. Guandan application code does not intentionally log request bodies or Hands-Free transcripts. Current default Google Cloud operational logs are retained for 30 days.</p>
+
+    <h2>9. Why we use data</h2>
+    <ul>
+      <li>Provide authentication, profiles, Campus presence, rooms, matching, gameplay, reconnect, chat, and match history.</li>
+      <li>Verify purchases, restore access, prevent duplicate redemption, and handle refunds or revocations.</li>
+      <li>Provide real-time Friend Voice and optional Hands-Free commands.</li>
+      <li>Protect game integrity, secure the service, diagnose failures, and meet legal obligations.</li>
+    </ul>
+
+    <h2>10. Service providers</h2>
+    <p>We use Apple for App Store purchases and device speech recognition; Google Firebase and Google Cloud for anonymous authentication, data storage, app installation/messaging infrastructure, and authoritative hosting; and LiveKit/WebRTC infrastructure for real-time Friend Voice. These providers process data on our behalf or as platform providers under their own terms.</p>
+
+    <h2>11. Retention</h2>
+    <p>Profile, room, conversation, match, and entitlement records currently have no automatic user-level expiry and are retained while needed to operate and protect the service. Verified transaction and revocation ledgers may be retained for fraud prevention, accounting, dispute resolution, and legal compliance. Short-lived room codes, presence leases, and voice access tokens expire according to their feature lifecycle. Operational logs currently use the 30-day default described above.</p>
+
+    <h2>12. Account and data deletion</h2>
+    <div class="note"><strong>Current limitation:</strong> Guandan does not yet provide an in-app account-deletion control or an automated server-side deletion endpoint.</div>
+    <p>You may contact <a href="mailto:support@imokfamily.com?subject=Guandan%20data%20deletion%20request">support@imokfamily.com</a> to request assistance with access, correction, or deletion. We will explain the information needed to locate an anonymous account and what can be removed. Some verified purchase, security, fraud-prevention, or legal records may need to be retained. Removing the app clears app-managed local data from that device but does not by itself delete server records.</p>
+
+    <h2>13. Security</h2>
+    <p>We use authenticated requests, encrypted network transport, access controls, server-side purchase verification, and authoritative game-state boundaries designed to protect information. No online service can guarantee absolute security.</p>
+
+    <h2>14. Children</h2>
+    <p>Guandan is not directed to children. The app does not currently perform age verification. If a parent or guardian believes a child has provided information, contact us so we can review the request.</p>
+
+    <h2>15. International processing</h2>
+    <p>Our service providers and infrastructure may process information in countries or regions other than where you live, subject to applicable safeguards and law.</p>
+
+    <h2>16. Contact and updates</h2>
+    <p>For privacy questions, contact <a href="mailto:support@imokfamily.com">support@imokfamily.com</a>. We may update this policy when the app or its data practices change and will post the effective date here.</p>
+
+    <p class="lang"><strong>简体中文摘要：</strong>校友掼蛋使用匿名账号提供在线牌局、校友房、好友房和购买恢复。好友语音为实时传输，当前不录音；免手操作的原始音频由系统语音识别处理，服务器只即时处理识别后的指令文字且不保存文字。应用不出售个人信息、不做跨应用跟踪。当前没有应用内自动注销入口；如需数据协助，请联系 support@imokfamily.com。</p>
+    <p class="lang"><strong>繁體中文摘要：</strong>校友摜蛋使用匿名帳號提供線上牌局、校友房、好友房和購買回復。好友語音為即時傳輸，目前不錄音；免手操作的原始音訊由系統語音辨識處理，伺服器只即時處理辨識後的指令文字且不保存文字。應用程式不出售個人資訊、不做跨應用追蹤。目前沒有應用程式內自動刪除帳號入口；如需資料協助，請聯絡 support@imokfamily.com。</p>
+  </main>
+  <footer><a href="/guandan/support">Guandan Support</a> · <a href="/">IMOK home</a></footer>
+</body>
+</html>
